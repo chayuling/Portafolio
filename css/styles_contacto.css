@@ -1,0 +1,121 @@
+.banner_contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+
+.ptmobtxt{
+    padding: 80px 0px 0px;
+}
+
+.item_redes{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 65px;
+}
+
+.social_link{
+    color: black;
+    text-decoration: none;
+}
+
+.contacto_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.redes_sociales{
+    margin: 0 auto;
+}
+
+.whmob{
+    width:30%;
+}
+
+.frase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.autor_frase{
+    font-size: 20px !important;
+    font-style: italic;
+
+}
+
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media only screen and (max-width: 1280px) {
+    .wh50{
+        width: 80%;
+    }
+
+    .whmob{
+        width:40%;
+    }
+
+    .frase{
+        padding: 0px;
+    }
+
+    
+
+    
+}
+
+
+@media only screen and (max-width: 912px) {
+
+    .banner_contacto{
+        padding-top: 50px;
+    }
+
+    .contacto_text{
+        padding: 0px 10px;
+    }
+
+
+    .ptmobtxt{
+        padding: 20px 30px 0px;
+    }
+
+    .item_redes{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .frase{
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .pmobfrase{
+        padding: 70px 70px 0px 70px;
+    }
+
+    .ptmob30{
+        padding-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .whmob{
+        width:90%;
+    }
+
+    
+        
+}

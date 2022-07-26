@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%;
+}
+
+.wh50{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.valerafont{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.secularfont{
+    font-family: 'Secular One', sans-serif;
+}
+
+.title_secular{
+    font-size: 32px;
+    padding-left: 35px;
+    
+}
+
+/* MENU */
+
+a:hover{
+    opacity: 0.5;
+}
+
+.menunav{
+    width: 100%;
+}
+
+.a_valerafont{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9c849b;
+    padding: 10px 0px ;
+}
+
+.item-link{
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.line-men{
+    font-size: 25px;
+    padding: 0px 36px;
+}
+
+/* Fin MENU */
+
+
+/* Banner */
+.banner{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 110px;
+}
+
+/* Fin Banner */
+
+/* Perfil */
+.perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.perfil_sec{
+    display: flex;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+.p_perfil{
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+/* Fin Perfil */
+
+/* Habilidades */
+.habilidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skill_pos{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Fin Habilidades */
+
+/* Educacion - Hobbies */
+.educacion{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+
+
+/* Fin Educacion - Hobbies */
+
+/* Laboral */
+.laboral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.exp_lab{
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    
+}
+
+.pl30{
+    padding-left: 30px;
+}
+
+/* Fin Laboral */
+
+@media only screen and (max-width: 912px) {
+    .disnone{
+        display: none;
+    }
+    .wh50{
+        width: 100% !important;
+    }
+
+    .pt20_mob{
+        padding-top: 20px;
+    }
+
+    .pt40_mob{
+        padding-top: 40px;
+    }
+
+    .pt50_mob{
+        padding-top: 50px;
+    }
+
+    .a_valerafont{
+        padding: 10px 0px;
+    }
+
+    .navegacion {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .perfil, .habilidades, .edu_hob, .laboral{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+
+    .skills{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .educacion{
+        flex-direction: column;
+    }
+
+    .edu_hob_div{
+        width: 100%;
+    }
+
+    
+
+    .exp_lab{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pl30{
+        padding-left: 0px;
+        text-align: left;
+    }
+
+
+    
+}
+
